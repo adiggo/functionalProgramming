@@ -1,0 +1,9 @@
+pairs(2- tuple)
+Access:
+$1 e and #2 e to access the element in the tuples
+
+val x1 = (7, (true, 9))   
+val x2 = #1 (#2 x1)
+
+
+

@@ -1,0 +1,46 @@
+sml has a static environment. And it will check before interpreting.
+Type checker will tell you error.
+static environment and dynamic environment.
+In the dynamic environment, it add the variables in the dynamic environment.
+
+syntax --> how to write
+semantics --> what something means --> type checking, evaluation.
+
+Type-check expression, extend static environment.
+Evaluate extentd dynamic environment.
+
+Syntax ---> not starting with digit.
+Type-checking ---> looking up in current static envronment.
+Evaluation --> looking up in the dynamic environment.
+
+addition:
+syntax --> e1 + e2. e1 and e2 are expressions.
+
+type checking --> if e1 and e2 has int, then e1+ e2 is int.
+
+evaluation --> if e1 evaliates to v1 and e2 evaluate to v2. then v1 + v2
+
+...
+
+all values are expressions. 
+not all expressions are value.
+value always evaluate to themselves.
+
+conditional expression:
+
+if e1 then e2 else e3
+
+e1 must have type bool.
+e2 and e3 must have the same type.
+
+
+
+
+REPL ---> READ_EVAL_PRINT.
+"use"
+
+in sml, we can't directly use negative integer.  -5 is not right, rather than ~5 works.
+in sml, for integer division is not "/", is "div". the previous one is for "floating number".
+
+
+
